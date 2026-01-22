@@ -2,6 +2,8 @@
 # NiftyZK CLI
 **Scaffold a new Circom project, generate circuits, compile it and run Powers of Tau Phase-2 ceremonies. Generate a cosmwasm verifier contract. Supports Groth-16 with a BN128 curve**
 
+# Niftyzk now has AI features for autimatic code generation on scaffolded projects! Using the niftyzk vibe command!
+
 Watch the explanation video here:
 
 https://www.youtube.com/watch?v=FxS9JD8gtyo
@@ -99,6 +101,9 @@ Specify the directory for the contracts using the `--folder` flag. When using th
 
 If you developed a custom cosmwasm contract already but want to generate a new one because you changed your circuits always use a different folder for the new contract, and then merge them manually where needed.
 
+`niftyzk vibe --file [name] --circom --cosmwasm --preserve --prompt [message]`
+
+The vibe command allows updating circuits in real time with AI which can then be recompiled. You can't use the --circom or --cosmwasm flags together, it switches the what system prompt is used. If you use the --preserve flag the file won't be updated. This is useful for asking questions to AI without overwriting the file.
 
 ## Checking the generated contracts
 Install the wasm rust compiler backend:
