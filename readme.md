@@ -2,7 +2,7 @@
 # NiftyZK CLI
 **Scaffold a new Circom project, generate circuits, compile it and run Powers of Tau Phase-2 ceremonies. Generate a cosmwasm verifier contract. Supports Groth-16 with a BN128 curve**
 
-# Niftyzk now has AI features for autimatic code generation on scaffolded projects! Using the niftyzk vibe command!
+# Niftyzk now has AI features for automatic code generation on scaffolded projects! Using the niftyzk vibe command!
 
 Watch the explanation video here:
 
